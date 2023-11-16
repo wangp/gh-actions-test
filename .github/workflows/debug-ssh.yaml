@@ -11,3 +11,5 @@ jobs:
 
     - name: Setup upterm session
       uses: lhotari/action-upterm@v1
+      with:
+        upterm-server: ssh://69.12.89.25:2222
